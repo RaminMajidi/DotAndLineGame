@@ -5,6 +5,9 @@
 }
 
 body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	font-family: "Arial", sans-serif;
 	height: 90vh;
 	background-color:#2e2e2e;
@@ -12,6 +15,7 @@ body {
 }
 
 section {
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -31,16 +35,15 @@ section {
 }
 
 .dot {
-	width: 10px;
-	height: 10px;
-
+	width: 15px;
+	height: 15px;
 	border-radius: 50px;
 	margin: auto;
 	background-color: rgb(83, 81, 81);
 }
 
 .line-horizontal {
-	height: 5px;
+	height: 10px;
 	background-color: lightgray;
 	width: 100%;
 	cursor: pointer;
@@ -50,7 +53,7 @@ section {
 
 .line-vertical {
 	height: 100%;
-	width: 5px;
+	width: 10px;
 	background-color: lightgray;
 	cursor: pointer;
 	border-radius: 5px;
@@ -69,6 +72,7 @@ section {
 
 .box {
 	width: 100%;
+	opacity: .7;
 }
 .box.bg{
 	background-color: orangered;
